@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item_add_to_favorites"
+        android:title="Thêm Vào Yêu Thích" />
+    <item
+        android:id="@+id/item_add_to_playlist"
+        android:title="Thêm Vào Danh sách Phát" />
+    <item
+        android:id="@+id/item_remove_from_playlist"
+        android:title="Xóa Khỏi Danh Sách Phát"/>
+    <item
+        android:id="@+id/item_download"
+        android:title="Tải Xuống
+" />
+</menu>

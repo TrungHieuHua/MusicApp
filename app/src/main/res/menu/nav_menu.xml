@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/action_profile"
+            android:title="Hồ sơ"
+            android:enabled="false"
+            android:textColor="#FFB64B" />
+        <item
+            android:id="@+id/nav_personal"
+            android:title="Riêng Tư" />
+        <item
+            android:id="@+id/nav_home"
+            android:title="Trang Chủ" />
+        <item
+            android:id="@+id/nav_favourite"
+            android:title="Yêu Thích" />
+        <item
+            android:id="@+id/nav_search"
+            android:title="Tìm Kiếm" />
+
+        <item
+            android:id="@+id/nav_playlist"
+            android:title="Danh Sách Phát" />
+    </group>
+    <item android:title="Tài khoản">
+        <menu>
+            <item
+                android:id="@+id/nav_myprofile"
+                android:title="Hồ Sơ Của Tôi" />
+            <item
+                android:id="@+id/nav_changepassword"
+                android:title="Đổi mật Khẩu" />
+            <item
+                android:id="@+id/nav_signout"
+                android:title="Đăng Xuất" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/nav_admin"
+        android:title="@string/strHeaderAdmin">
+        <menu>
+            <item
+                android:id="@+id/nav_user_manager"
+                android:title="Người Dùng" />
+            <item
+                android:id="@+id/nav_song_manager"
+                android:title=" Bài Hát" />
+            <item
+                android:id="@+id/nav_banner_manager"
+                android:title="@string/strHeaderBannerManager" />
+            <item
+                android:id="@+id/nav_album_manager"
+                android:title="@string/strHeaderAlbumManager" />
+            <item
+                android:id="@+id/nav_theme_manager"
+                android:title="Chủ đề" />
+            <item
+                android:id="@+id/nav_types_manager"
+                android:title="@string/strHeaderTypesManager" />
+            <item
+                android:id="@+id/nav_playlist_manager"
+                android:title="Danh Sách Phát" />
+        </menu>
+    </item>
+</menu>
